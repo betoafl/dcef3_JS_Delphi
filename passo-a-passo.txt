@@ -1,0 +1,30 @@
+﻿1) Página do componente
+https://github.com/hgourvest/dcef3
+
+2) Download do "master"
+https://codeload.github.com/hgourvest/dcef3/zip/master
+
+3) Criar pasta para o componente e descompactar o arquivo baixado, mantendo a estrutrua de pastas
+Por exemplo, criar "C:\Arquivos de programas\Borland\Delphi7\dcef3"
+
+4) Instalar o package conforme a versão do Delphi
+Por exemplo, para o Delphi 7 utilizar "C:\Arquivos de programas\Borland\Delphi7\dcef3\packages\DCEF_D7.dpk"
+
+5) Adicionar as pastas dos arquivos fontes do componente no "Library Path" do Delphi
+No exemplo as pastas que adicionei foram:
+"C:\Arquivos de programas\Borland\Delphi7\dcef3\src"
+"C:\Arquivos de programas\Borland\Delphi7\dcef3\demos\filescheme"
+
+6) O exemplo que fiz foi baseado em um dos demos existentes
+Utilizei "C:\Arquivos de programas\Borland\Delphi7\dcef3\demos\guiclient"
+
+7) Criei a pasta "bin\Win32" com o conteúdo da pasta "C:\Arquivos de programas\Borland\Delphi7\dcef3\bin\Win32" para geração do executável.
+
+8) Dica: Vc pode utilizar o "DevTools" no menu do exemplo para mapear qual objeto quer recuperar e definir como pegá-lo via JS.
+
+9) Página para dúvidas sobre comandos JS
+https://www.w3schools.com/jsref
+
+10) A sacada deste exemplo é executar o JS enviando dados ao console, após isso mapeamos as mensagens do console via timer e no timer extraímos o resultado, o qual podemos tratar como desejarmos.
+
+IMPORTANTE: Há muita coisa que pode ser melhorada e/ou desenvolvida a partir deste exemplo, o objetivo dele é somente didático para dar um caminho a quem queira utilizar Delphi + TChromium + JavaScript.
